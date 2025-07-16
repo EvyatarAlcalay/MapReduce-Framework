@@ -1,21 +1,17 @@
 # MapReduce-Framework
 Thread-safe implementation of the MapReduce model in C++ using pthreads, synchronization primitives, and performance optimization.
 
-About this project
+## About this project
 This is a thread-safe, high-performance implementation of the MapReduce programming model in C++ using POSIX threads (pthreads). The framework manages the entire workflow: map, sort, shuffle, and reduce phases — enabling parallel processing of large datasets with synchronization and efficient memory management.
 
-Why this project?
-Multi-threading and synchronization are crucial skills for systems programming and performance-critical applications. This project demonstrates my ability to:
+## Why this project?
+- Multi-threading and synchronization are crucial skills for systems programming and performance-critical applications. This project demonstrates my ability to:
+- Design and implement concurrent algorithms
+- Use pthreads and synchronization primitives effectively
+- Manage complex workflows with thread safety and no memory leaks
+- Apply advanced C++ concepts in a real-world scenario
 
-Design and implement concurrent algorithms
-
-Use pthreads and synchronization primitives effectively
-
-Manage complex workflows with thread safety and no memory leaks
-
-Apply advanced C++ concepts in a real-world scenario
-
-Key Features
+## Key Features
 Full MapReduce workflow with parallel map, sort, shuffle, and reduce phases
 
 Thread-safe job management with progress tracking
